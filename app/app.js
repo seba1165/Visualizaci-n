@@ -82,6 +82,11 @@ app.controller('MainCtrl', function($scope) {
                         return d3.format('$,.0')(d);
                     },
                     axisLabelDistance: 20
+                },
+                x2Axis: {
+                    tickFormat: function(d) {
+                        return d3.time.format('%d/%m/%y')(new Date(d))
+                    }
                 }
             }
         };
