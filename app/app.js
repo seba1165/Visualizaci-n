@@ -26,6 +26,20 @@ app.controller('MainCtrl', function($scope) {
             title: 'Los Lagos',
             url: 'eight.tpl.html'
         }];
+    
+    $scope.tabs_frutas = [{
+            title: 'Plátano',
+            url: 'one.tpl.html'
+        }, {
+            title: 'Naranja',
+            url: 'two.tpl.html'
+        }, {
+            title: 'Manzana',
+            url: 'three.tpl.html'
+        }, {
+            title: 'Limón',
+            url: 'four.tpl.html'
+        }];
 
     $scope.currentTab = 'one.tpl.html';
 
