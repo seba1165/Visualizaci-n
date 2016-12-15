@@ -503,7 +503,7 @@ app.controller('MainCtrl', function($scope) {
     }
     
     var freqData=[
-    {State:'Arica y Parinacota',freq:{Limon:908, Naranja:1040, Manzana:698, Platano:628}}
+    {State:'Arica',freq:{Limon:908, Naranja:1040, Manzana:698, Platano:628}}
     ,{State:'Coquimbo',freq:{Limon:649, Naranja:892, Manzana:675, Platano:649}}
     ,{State:'Valparaiso',freq:{Limon:642, Naranja:746, Manzana:590, Platano:599}}
     ,{State:'Metropolitana',freq:{Limon:720, Naranja:873, Manzana:583, Platano:598}}
